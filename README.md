@@ -20,7 +20,7 @@ There are some dependencies that need to be installed for this script to work. I
 ```
 pip install -r requirements.txt
 ```
-You also may need to write these commands f error occurs 
+You also may need to write these commands if error occurs 
 ```
 pip install pipwin
 ```
@@ -34,7 +34,7 @@ pip install ibm_watson
 ```
 
 ## Speech to Text 
-* ### You need to change **apikey** and **region** base on yours in [speech.cfg] file
+* ### You need to change **apikey** and **region** base on yours in [speech.cfg](https://github.com/wesamhamad/Real-time-Speech-to-Text-Text-to-Speech-with/blob/main/speech.cfg) file
 ```
 apikey = AHtCuEgG6MpKIcMa3b56RBwBIVcxGUCEtpiF_OPJvJyG
 # Modify region based on where you provisioned your stt instance
@@ -46,7 +46,7 @@ region = us-south
  Notes = data['results'][0]['alternatives'][0]['transcript']
 ```
 
-* ### Then use the variable in your [transcribe.py] file.
+* ### Then use the variable in your [transcribe.py](https://github.com/wesamhamad/Real-time-Speech-to-Text-Text-to-Speech-with/blob/main/transcribe.py) file.
 
 ``
 NOTE:You need to create file.text to save the text comes.
@@ -63,9 +63,8 @@ NOTE:You need to create file.text to save the text comes.
 ```
 python TextToSpeech.py -t 
 ```
-## Text TO Speech
-### 1. Authenticate
-* ### You need to change **apikey** and **region** base on yours in [TextToSpeech.py] file
+## Text To Speech
+* ### You need to change **apikey** and **region** base on yours in [TextToSpeech.py](https://github.com/wesamhamad/Real-time-Speech-to-Text-Text-to-Speech-with/blob/main/TextToSpeech.py) file
 ```python
 apikey = 'yLlsRPdRzYZn5_NCieIzVR198v92K4f6HDPRxZIAFzml'
 url = 'https://api.us-south.text-to-speech.watson.cloud.ibm.com/instances/23939e8f-468c-4f3d-8eb5-8760b7d7033e'
@@ -100,7 +99,7 @@ with open('./sound.mp3', 'wb') as audio_file:
 
 * ### Finally, now you can run it with this command  
 ``
-NOTE: After -t you can specify the number of seconds to record here I choose 5 second .
+NOTE: After -t you can specify the number of seconds to record, here I choosed 5 second .
 ``
 ```
  python transcribe.py -t 5
