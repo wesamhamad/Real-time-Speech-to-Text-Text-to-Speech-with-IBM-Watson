@@ -6,7 +6,7 @@ This project consists of a python client that interacts with the IBM Watson Spee
 ## Prerequisites
 1. Install [python](https://www.python.org/downloads/).
 2. Sign up for an [IBM Cloud account](https://cloud.ibm.com/registration).
-3.Click on [catalog](https://cloud.ibm.com/catalog/services/speech-to-text) and search for Speech to Text.
+3. Click on [catalog](https://cloud.ibm.com/catalog/services/speech-to-text) and search for Speech to Text.
 4. Create an instance of the Speech to Text service and get your credentials:
     * Go to the [Speech to Text page](https://cloud.ibm.com/catalog/services/speech-to-text) in the IBM Cloud Catalog.
     * Log in to your IBM Cloud account.
