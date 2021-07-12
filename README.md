@@ -140,6 +140,6 @@ https://user-images.githubusercontent.com/74800962/125205547-779c5e00-e28b-11eb-
 
 ## Learning references:
 1. [Click here](https://www.youtube.com/watch?v=YCyuZM454_I)
-2. [Click here](https://www.youtube.com/watch?v=YCyuZM454_I&t=14s)
+2. [Click here](https://youtu.be/A9_0OgW1LZU)
 3. [Click here](https://www.youtube.com/watch?v=8k8S5ruFAUs&t=528s)
 4. [Click here](https://github.com/watson-developer-cloud)
